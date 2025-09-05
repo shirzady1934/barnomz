@@ -32,3 +32,4 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 - Export: On the schedules page, use the JSON export button near the bottom-left action buttons. It always exports all schedules to a `.json` file containing `schedules` and `currentScheduleId`.
 - Import: Use the JSON import button, pick a valid `.json` file, then choose to “Append to existing” or “Replace all”. The app validates structure and enforces the maximum number of schedules.
+- Calendar: Export the current schedule with exam dates to an `.ics` file suitable for Google Calendar using the calendar button on the schedules page.
